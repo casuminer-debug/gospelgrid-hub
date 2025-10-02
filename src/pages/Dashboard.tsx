@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { 
@@ -107,10 +108,10 @@ const Dashboard = () => {
         )}
       >
         <div className="flex items-center justify-between p-4 border-b">
-          <div className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-smooth">
             <Church className="w-6 h-6 text-primary" />
             <span className="font-bold text-lg">ChurchHub</span>
-          </div>
+          </Link>
           <Button 
             variant="ghost" 
             size="icon"

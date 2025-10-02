@@ -78,20 +78,24 @@ const Index = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button 
-                size="lg" 
-                className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-accent text-lg px-8"
-              >
-                Começar Gratuitamente
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 text-lg px-8"
-              >
-                Ver Demonstração
-              </Button>
+              <Link to="/dashboard">
+                <Button 
+                  size="lg" 
+                  className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-accent text-lg px-8 w-full sm:w-auto"
+                >
+                  Começar Gratuitamente
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </Link>
+              <Link to="/dashboard">
+                <Button 
+                  size="lg" 
+                  variant="outline" 
+                  className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 text-lg px-8 w-full sm:w-auto"
+                >
+                  Ver Demonstração
+                </Button>
+              </Link>
             </div>
 
             {/* Stats */}
@@ -210,13 +214,15 @@ const Index = () => {
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             Junte-se a milhares de igrejas que já estão crescendo com nossa plataforma
           </p>
-          <Button 
-            size="lg" 
-            className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-accent text-lg px-8"
-          >
-            Começar Agora - É Grátis
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+          <Link to="/dashboard">
+            <Button 
+              size="lg" 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-accent text-lg px-8"
+            >
+              Começar Agora - É Grátis
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Button>
+          </Link>
         </div>
       </section>
 
