@@ -24,8 +24,8 @@
     --accent-glow: 38 92% 65%;
 
     /* Neutral system */
-    --muted: 220 13% 46%;          /* Gray #6b7280 */
-    --muted-foreground: 220 9% 96%;
+    --muted: 220 13% 91%;          /* Light gray background */
+    --muted-foreground: 220 9% 46%; /* Darker gray for better readability */
     
     --card: 0 0% 100%;
     --card-foreground: 218 12% 13%;
