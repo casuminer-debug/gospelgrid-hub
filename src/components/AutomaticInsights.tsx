@@ -109,60 +109,60 @@ const InsightCard = ({
 };
 
 const AutomaticInsights = () => {
-  const insights = [
+  const insights: InsightCardProps[] = [
     {
       title: "Frequência em Células",
       description: "Queda na participação das células do setor sul",
       score: 68,
-      trend: "down",
+      trend: "down" as const,
       trendValue: "-12%",
-      category: "attendance",
-      priority: "high"
+      category: "attendance" as const,
+      priority: "high" as const
     },
     {
       title: "Crescimento de Membros",
       description: "Aumento significativo de novos membros",
       score: 92,
-      trend: "up",
+      trend: "up" as const,
       trendValue: "+23%",
-      category: "growth",
-      priority: "low"
+      category: "growth" as const,
+      priority: "low" as const
     },
     {
       title: "Engajamento em Eventos",
       description: "Participação abaixo do esperado nos eventos de jovens",
       score: 74,
-      trend: "down",
+      trend: "down" as const,
       trendValue: "-8%",
-      category: "engagement",
-      priority: "medium"
+      category: "engagement" as const,
+      priority: "medium" as const
     },
     {
       title: "Saúde Financeira",
       description: "Dízimos acima da meta, mas ofertas em queda",
       score: 85,
-      trend: "neutral",
+      trend: "neutral" as const,
       trendValue: "+2%",
-      category: "financial",
-      priority: "medium"
+      category: "financial" as const,
+      priority: "medium" as const
     },
     {
       title: "Retenção de Voluntários",
       description: "Alta rotatividade no ministério infantil",
       score: 62,
-      trend: "down",
+      trend: "down" as const,
       trendValue: "-15%",
-      category: "attendance",
-      priority: "high"
+      category: "attendance" as const,
+      priority: "high" as const
     },
     {
       title: "Crescimento de Células",
       description: "Multiplicação de células acima do esperado",
       score: 95,
-      trend: "up",
+      trend: "up" as const,
       trendValue: "+28%",
-      category: "growth",
-      priority: "low"
+      category: "growth" as const,
+      priority: "low" as const
     }
   ];
 
