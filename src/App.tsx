@@ -17,9 +17,9 @@ import NotFound from "./pages/NotFound";
 import Certificates from "./pages/Certificates";
 import Inventory from "./pages/Inventory";
 import Pricing from "./pages/Pricing";
+import Academy from "./pages/Academy";
 // Lazy loading para os outros módulos que serão implementados// Lazy loaded components
 const Volunteers = React.lazy(() => import("./pages/Volunteers"));
-const Academy = React.lazy(() => import("./pages/Academy"));
 const Donations = React.lazy(() => import("./pages/Donations"));
 const Registrations = React.lazy(() => import("./pages/Registrations"));
 const Social = React.lazy(() => import("./pages/Social"));
